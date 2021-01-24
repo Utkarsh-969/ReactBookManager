@@ -6,28 +6,32 @@ function App() {
 
   const [val,setValue] = useState([]);
   const bookDB = {
-    javascript: [
+    Javascript: [
       { name: "Eloquent JavaScript", rating: "4/5" },
       { name: "You Don't Know JS", rating: "4.5/5" }
     ],
   
-    fiction: [
+    Python: [
       {
-        name: "Shiva Trilogy",
+        name: "Think Python",
         rating: "5/5"
       },
       {
-        name: "Harry Potter and the Sorcerer's Stone",
+        name: "Learning with Python",
         rating: "4.5/5"
       }
     ],
-    business: [
+    Java: [
       {
-        name: "Never Split the Difference",
+        name: "Get started with java",
         rating: "3.5/5"
       },
       {
-        name: "Loonshots",
+        name: "Functional Programming in Java",
+        rating: "5/5"
+      },
+      {
+        name: "Get started with spring",
         rating: "5/5"
       }
     ]
