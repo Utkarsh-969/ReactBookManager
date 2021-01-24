@@ -1,0 +1,45 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+}
+
+p{
+  font-size: smaller;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.3rem;
+  border-radius: 0.5rem;
+  background: #E5E7EB;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.book-ul{
+  list-style: none;
+  padding-inline-start : 0;
+  margin-inline-start: 0;
+}
+
+li{
+  border: 1px solid #D1D5DB;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 75%;
+  margin: 0rem 1rem;
+}
+.primary-div{
+  font-size: large;
+}
+.secondary-div
+{
+  font-size: smaller;
+}
